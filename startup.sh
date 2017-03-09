@@ -16,6 +16,7 @@ RepeatMasker \
        $ASSEMBLY
 
 rm $ASSEMBLY
+rename "s/.fa/.fa.repeatmasker/" *
 gzip *
 mv * /out/
 
